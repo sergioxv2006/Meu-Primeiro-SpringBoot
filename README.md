@@ -7,7 +7,7 @@ Uma API REST completa com autenticação JWT, gerenciamento de usuários e produ
 ## 🚀 Tecnologias Utilizadas
 
 - Java — linguagem principal do projeto
-- Spring Boot — framework principal, iniciado via Spring Initializr
+- Spring Boot — framework principal, iniciado via Spring Initializer
 - Spring Security — autenticação e autorização
 - JWT (JSON Web Token) — controle de acesso via token
 - PostgreSQL — banco de dados relacional
