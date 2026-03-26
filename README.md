@@ -5,14 +5,15 @@ Projeto desenvolvido durante o estudo do framework Spring Boot com Java, baseado
 Uma API REST completa com autenticação JWT, gerenciamento de usuários e produtos, integrada ao banco de dados PostgreSQL.
 
 ## 🚀 Tecnologias Utilizadas
-Java — linguagem principal do projeto
-Spring Boot — framework principal, iniciado via Spring Initializr
-Spring Security — autenticação e autorização
-JWT (JSON Web Token) — controle de acesso via token
-PostgreSQL — banco de dados relacional
-JPA / Hibernate — mapeamento objeto-relacional
-Maven (pom.xml) — gerenciamento de dependências
-Postman — testes de requisições HTTP
+
+- Java — linguagem principal do projeto
+- Spring Boot — framework principal, iniciado via Spring Initializr
+- Spring Security — autenticação e autorização
+- JWT (JSON Web Token) — controle de acesso via token
+- PostgreSQL — banco de dados relacional
+- JPA / Hibernate — mapeamento objeto-relacional
+- Maven (pom.xml) — gerenciamento de dependências
+- Postman — testes de requisições HTTP
 
 ## 🗂️ Estrutura do Projeto
 ```
@@ -27,12 +28,12 @@ src/main/java/com/example/meu_primeiro_springboot/
 
 ## ⚙️ Funcionalidades
 
-✅ Cadastro de usuários com senha criptografada (BCrypt)
-✅ Login com geração de token JWT
-✅ Autenticação via Bearer Token
-✅ CRUD de produtos protegido por autenticação
-✅ Tratamento de exceções personalizado
-✅ Integração com PostgreSQL
+- ✅ Cadastro de usuários com senha criptografada (BCrypt)
+- ✅ Login com geração de token JWT
+- ✅ Autenticação via Bearer Token
+- ✅ CRUD de produtos protegido por autenticação
+- ✅ Tratamento de exceções personalizado
+- ✅ Integração com PostgreSQL
 
 ## 🔧 Como Executar
 
@@ -43,7 +44,7 @@ src/main/java/com/example/meu_primeiro_springboot/
 
 ## 📡 Endpoints Principais
 | Método | Rota                 | Descrição                     |
------------------------------------------------------------------
+|--------|----------------------|-------------------------------|
 | POST   | `/auth/register`     | Cadastrar novo usuário        | 
 | POST   | `/auth/login`        | Autenticar e obter token      | 
 | GET    | `/api/produtos/{id}` | Buscar produto (autenticado)  |
